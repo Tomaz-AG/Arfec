@@ -1,0 +1,89 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+main, .content {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.texto-destaque {
+    text-align: center;
+}
+.texto-destaque strong {
+    color: #646464;
+}
+.texto-destaque h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #818181;
+}
+.texto-destaque p {
+    font-size: 15px;
+    color: #9a9a9a;
+}
+
+.col-3 {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px; 
+    width: 29%;
+    float: left;
+    position: relative;
+}
+
+.news, .documentario{
+    cursor: pointer;
+}
+
+.news{
+    margin-top: 7em;
+}
+
+.texto-entrevistados{
+    padding-top:40px;
+    border-top:5px solid #ccc
+}
+
+a{
+    text-decoration:none;
+}
+
+@media (max-width:1024px){
+    .texto-destaque{
+        width: 100%;
+    }
+
+    .col100{
+        width: 980px;
+    }
+}
+
+@media (max-width:780px){
+    .texto-destaque{
+        width: 670px;
+        margin-left:5px;
+    }
+
+    .col100{
+        width: 800px;
+    }
+
+    .news{
+        margin-top: 0em;
+        margin-left: 170px;
+}
+
+    .site{
+        margin-left:220px;
+    }
+}
