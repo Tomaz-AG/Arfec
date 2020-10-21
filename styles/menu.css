@@ -1,0 +1,98 @@
+.menu-principal {
+    width: 100%;
+    height: 120px;
+    background-color: #252323;
+}
+.logo {
+    float: left;
+}
+
+.logo img{
+    margin-left: 370px;
+    margin-top: 12px;
+    width: 200px;
+}
+
+.header-2 {
+    background-color: #ffff;
+    width: 980px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.menu-urls {
+    height: 80px;
+    border-bottom: 3px solid #efefef
+}
+
+.menu ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    height: 45px;
+    margin: 10px;
+    margin-left: 30px;
+}
+
+.menu ul li a:hover{
+    color: #00bac6;
+}
+
+.menu ul li:hover{
+    border-bottom: 4px solid #00bac7;
+}
+
+.menu ul li a{
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    display: inline-block;
+
+}
+
+.menu {
+    width: 70%;
+    display: block;
+    float: left;
+    margin-left: 200px;
+}
+
+@media(max-width:1024px){
+    .menu{
+        margin-left: 20px;
+    }
+
+    .header-2{
+        width: 650px;
+    }
+
+    .menu ul{
+        width: 600px;
+    }
+
+}
+
+@media(max-width:800px){
+    .menu{
+        width:530px;
+        margin-left:0px;
+    }
+
+    .header-2{
+        padding-left: 0;
+        width: 530px;
+    }
+
+    .menu ul{
+        width:530px;
+    }
+
+    .logo img{
+        margin-left:270px;
+    }
+
+}
+

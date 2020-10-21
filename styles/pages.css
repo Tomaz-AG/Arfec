@@ -1,0 +1,33 @@
+.artigo{
+    margin-top:50px;
+    margin-left: 30px;
+    font-size:18px;
+    font-family: Arial, sans-serif;
+    color: #253A44;
+    width: 950px;
+    max-width: 100%;
+    padding: 0 168px 0 200px;
+    margin-bottom: 20px;
+}
+
+.artigo ul li{
+    padding:20px;
+}
+
+h3, h2{
+    color: #20b320
+}
+
+.lista-texto{
+    color: #253A44;
+}
+
+h4, strong{
+    color: #115606
+}
+
+@media(max-width:780px){
+    .artigo{
+        padding-left:80px;
+    }
+}
